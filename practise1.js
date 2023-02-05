@@ -1,6 +1,3 @@
-
-
-
 // 1. x = 10, y  =11, z = 12. এই মান গুলোর জন্য নিচের কোন অপশন গুলো true আর কোনগুলো false। done
 
 // A. x< 10 false
@@ -23,7 +20,7 @@ var z = 12;
 
 //  for true output
 if( (x+y == 21) && ((x*z)%7 == 1) && (y<=z) && (!(x>y)) && ((x<y) && (y<z)) && ((x>=y) || (y<z)) && (!(x%5==0 && y%5==0)) && ((x<y && z%11==0) || (x%10==0))){
-     console.log( true  )
+    //  console.log( true  )
     ;
 }
 else{
@@ -34,10 +31,10 @@ else{
 //  for false output
 
 if(( (x< 10) && (y>11) && ((x+y+z)%3==1) && ((x>y) && (y<z))) !== 'true'){
- console.log(false);
+//  console.log(false);
 }
 else{
- console.log(true);
+//  console.log(true);
 }
 
 
@@ -71,7 +68,7 @@ else{
 var sum = 0;
 for (let i = 1; i <= 50; i += 2) {
     sum = sum + i
-    console.log(sum);
+    // console.log(sum);
     
 }
 // for 2 (1+3+5+...+29 ( প্রথম ২০টি পদ))
@@ -82,28 +79,33 @@ for (let i = 1; i <= 20; i += 2) {
     // console.log(i, sum1);
     
 }
-// for 2
+  
 
-var sum1 = 0;
-for (let i = 1; i <= 20; i += 2) {
-    sum1 = sum1 + i
-    // console.log(i, sum1);
-    
-}
 // for 3 (50 + 49 + 48 + 47 + …… ( প্রথম ১০টি পদ))
 
 var sum2 = 0;
-for (let i = 10; i >= 1; i-- ) {
+for (let i = 50; i >= 40; i-- ) {
     sum2 = sum2 + i
-    console.log(i, sum2);
+    // console.log(i, sum2);
     
 }
-// for 4 (100 + 97 + 94 + 91 + ….  (0 এর চেয়ে বড় পর্যন্ত))
+// for 4 (2 + 5 + 8 + 11 + 14 + …..   (প্রথম ১০টি পদ))
+
+var sum4 = 0;
+for (let i = 2; i <= 29; i += 3 ) {
+    sum4 = sum4 + i
+    console.log(i, sum4);
+    
+}
+
+
+
+// for 5 (100 + 97 + 94 + 91 + ….  (0 এর চেয়ে বড় পর্যন্ত))
 
 var sum3 = 0;
 for (let i = 100; i >= 0; i -= 3) {
     sum3 = sum3 + i
-    console.log(i, sum3);
+    // console.log(i, sum3);
     
 }
 
